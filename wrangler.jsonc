@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "campus-equipment-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-06",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "campus-equipment-db",
+      "database_id": "af34451c-1c62-443e-aeb7-d645c89884a8",
+    },
+  ],
+}
